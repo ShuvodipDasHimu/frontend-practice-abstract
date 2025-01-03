@@ -6,15 +6,99 @@
   box-sizing: border-box;
 }
 
-header {
+html {
+  font-family: "Roboto", "Poppins",sans-serif;
+}
+
+body {
+  font-family: "Roboto", "Poppins",sans-serif;
+}
+
+/* header {
   height: 10vh;
   background-color: #000;
   color: white;
-}
+  display: flex;
+  /* justify-content: space; 
+  align-items: center;
+} */
 
 nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000;
+  color: white;
+  height: 90px;
 }
 
-html {
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  margin-left: -320px;
+}
+
+.nav-logo h1 {
+  font-weight: normal;
+  margin-left: 8px;
+}
+
+.nav-links {
+  margin-right: -300px;
+}
+
+
+button {
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  color: white;
   font-family: "Roboto", "Poppins",sans-serif;
+  padding: 9px 20px;
+  border-radius: 10px;
+}
+
+.btn1 {
+  border: 1px solid white;
+  background-color: #191A1B;
+  margin-right: 20px;
+}
+
+.btn2 {
+  /* border: 1px solid white; */
+  background-color: #4C5FD5;
+  padding: 10px 30px;
+}
+
+/* Main - Hero Section */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dadbf1;
+  height: 41vh;
+}
+
+main h1{
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+/* main input {
+  padding: 16px 100px;
+} */
+
+main input{
+  /* float: right; */
+  padding: 10px 150px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
