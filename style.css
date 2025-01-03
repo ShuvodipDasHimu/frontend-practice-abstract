@@ -23,6 +23,24 @@ body {
   align-items: center;
 } */
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: "Roboto", "Poppins",sans-serif;
+  padding: 9px 20px;
+  border-radius: 10px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -51,16 +69,6 @@ nav div {
   margin-right: -300px;
 }
 
-
-button {
-  font-size: 1.5rem;
-  border: none;
-  cursor: pointer;
-  color: white;
-  font-family: "Roboto", "Poppins",sans-serif;
-  padding: 9px 20px;
-  border-radius: 10px;
-}
 
 .btn1 {
   border: 1px solid white;
@@ -114,4 +122,33 @@ main input{
   border-radius: 6px;
   width: 700px;
   box-shadow: 1px 1px 9px gray;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  color: white;
+  background-color: #000;
+  /* height: 480px; */
+  padding-bottom: 80px;
+}
+
+.footer-abstract,
+.footer-resources,
+.footer-community,
+.footer-company {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* justify-content: space-around; */
+}
+
+.footer-copyright {
+  margin-top: 280px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
