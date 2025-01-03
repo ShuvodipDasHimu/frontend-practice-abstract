@@ -174,8 +174,8 @@ main input{
 .hero-section-bottom-right {
   display: flex;
   flex-direction: column;
-  gap: 116px;
-  margin-top: 72px;
+  gap: 96px;
+  margin-top: 78px;
 }
 
 .hero-section-bottom-right .right-1 {
@@ -186,8 +186,10 @@ main input{
   /* margin: 70px 50px; */
 }
 
-.hero-section-bottom-right .right-1-1 img {
-  width: 100px;
+.hero-section-bottom-right .right-1 .right-1-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 
