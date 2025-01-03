@@ -105,6 +105,7 @@ main h1{
   font-weight: 500;
   font-family: "Poppins";
   margin-bottom: 12px;
+  text-align: center;
 }
 
 /* main input {
@@ -122,16 +123,106 @@ main input{
   border-radius: 6px;
   width: 700px;
   box-shadow: 1px 1px 9px gray;
+  margin-bottom: 200px;
 }
 
+.hero-section-bottom {
+  margin-bottom: -1050px;
+  display: flex;
+  padding: 100px 100px;
+  margin-top: 0;
+  padding-top: 10px;
+  /* flex-direction: column; */
+}
+
+.hero-section-bottom img {
+  width: 100px;
+}
+.hero-section-bottom h2 {
+  font-size: 1.55rem;
+}
+
+.hero-section-bottom p {
+  color: gray;
+  font-size: 1.48rem;
+}
+
+.hero-section-bottom a {
+  font-size: 1.3rem;
+}
+
+.hero-section-bottom-left {
+  /* width: 50%; */
+  /* height: 600px; */
+  /* float: left; */
+}
+
+
+.hero-section-bottom .left-1 {
+  display: flex;
+  /* align-items: justify; */
+  /* flex-direction: row; */
+  gap: 20px;
+  margin: 80px 50px;
+}
+.hero-section-bottom .left-1 .left-1-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.hero-section-bottom-right {
+  display: flex;
+  flex-direction: column;
+  gap: 116px;
+  margin-top: 72px;
+}
+
+.hero-section-bottom-right .right-1 {
+  display: flex;
+  /* align-items: flex-start; */
+  gap: 20px;
+  /* margin: 65px 0; */
+  /* margin: 70px 50px; */
+}
+
+.hero-section-bottom-right .right-1-1 img {
+  width: 100px;
+}
+
+
+/*
+.hero-section-bottom-right .right-1 {
+  display: flex;
+  align-items: justify;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.hero-section-bottom-right .right-1 .right-1-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+*/
+.hero-section-bottom a {
+  color: #4C5FD5;
+}
+
+/* Footer Section */
 footer {
   display: flex;
   justify-content: space-around;
   gap: 20px;
   color: white;
   background-color: #000;
-  /* height: 480px; */
-  padding-bottom: 80px;
+  padding-bottom: 170px;
+  margin-top: 900px;
+}
+
+footer ul li {
+  font-size: 17px;
 }
 
 .footer-abstract,
@@ -142,11 +233,10 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  /* justify-content: space-around; */
 }
 
 .footer-copyright {
-  margin-top: 280px;
+  margin-top: 180px;
   gap: 8px;
   display: flex;
   flex-direction: column;
