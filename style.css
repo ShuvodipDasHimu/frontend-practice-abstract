@@ -72,6 +72,13 @@ button {
   /* border: 1px solid white; */
   background-color: #4C5FD5;
   padding: 10px 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn2:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s ease-in-out;
 }
 
 /* Main - Hero Section */
@@ -86,8 +93,10 @@ main {
 }
 
 main h1{
-  font-size: 5rem;
+  font-size: 4.1rem;
   font-weight: 500;
+  font-family: "Poppins";
+  margin-bottom: 12px;
 }
 
 /* main input {
@@ -96,9 +105,13 @@ main h1{
 
 main input{
   /* float: right; */
-  padding: 10px 150px;
-  border: none;
+  border: 1px solid black;
+  padding: 20px 350px;
   margin-top: 8px;
   margin-right: 16px;
-  font-size: 17px;
+  font-size: 18px;
+  padding-left: 12px;
+  border-radius: 6px;
+  width: 700px;
+  box-shadow: 1px 1px 9px gray;
 }
